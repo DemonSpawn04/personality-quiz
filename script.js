@@ -3,7 +3,7 @@
 //#TODO: Create four variables to track each possible quiz outcome
 var questionCount = 0;
 var result1Score = 0;
-
+var re
 
 
 
