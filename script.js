@@ -39,5 +39,10 @@ function earth(){
   questionCount +=1;
 }
 function water(){
-  
+  waterScore += 1;
+  questionCount += 1;
+}
+function air(){
+  airScore += 1;
+  questionCount += 1;
 }
