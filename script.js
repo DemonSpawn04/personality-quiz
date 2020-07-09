@@ -21,17 +21,23 @@ var q1a1 = document.getElementById("q1a1");
 
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", fire);
-
-
+q1a1.addEventListener("click", earth);
+q1a1.addEventListener("click", water);
+q1a1.addEventListener("click", air);
 
 
 
 
 
 //#TODO: Define quiz functions here
-function fire(){
-function earth()
-function water()  
-function air()   
+function fire(){  
+  fireScore += 1;
+  questionCount += 1;
+}
+function earth(){
+  earthScore += 1;
+  questionCount +=1;
+}
+function water(){
   
 }
