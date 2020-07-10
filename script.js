@@ -11,7 +11,7 @@ var airScore = 0;
 var q1a1 = document.getElementById("q1a1");
 var q1a2 = document.getElementById("q1a2");
 var q1a3 = document.getElementById("q1a3");
-var q1a4 = document.getElemnetById("q1a4");
+var q1a4 = document.getElementById("q1a4");
 
 var q2a1 = document.getElementById("q2a1");
 var q2a2 = document.getElementById("q2a2");
@@ -45,7 +45,6 @@ q3a4.addEventListener("click", air);
 function fire(){
   fireScore+=1;
   questionCount+=1;
-  alert("One Point to Fire");
   if (questionCount >= 3) {
     updateResult();
   }
@@ -53,7 +52,6 @@ function fire(){
 function earth(){
   earthScore+=1;
   questionCount+=1;
-  alert("One Point to Earth");
   if (questionCount >= 3) {
     updateResult();
   }
@@ -61,7 +59,6 @@ function earth(){
 function water(){
   waterScore+=1;
   questionCount+=1;
-  alert("One Point to Water");
   if (questionCount >= 3) {
     updateResult();
   }
@@ -69,7 +66,6 @@ function water(){
 function air(){
   airScore+=1;
   questionCount+=1;
-  alert("One Point to Air");
   if (questionCount >= 3) {
     updateResult();
   }
