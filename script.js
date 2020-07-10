@@ -50,7 +50,7 @@ q3a4.addEventListener("click", air)
 function fire(){  
   fireScore += 1;
   questionCount += 1;
-  
+  alert("One ")
 }
 function earth(){
   earthScore += 1;
