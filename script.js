@@ -45,15 +45,15 @@ q3a4.addEventListener("click", air);
 function fire(){
   fireScore+=1;
   questionCount+=1;
+  alert("One Point to Fire");
   if (questionCount >= 3) {
     updateResult();
-  alert("One Point to Fire");
   }
 }
 function earth(){
   earthScore+=1;
   questionCount+=1;
-  console.log("One Point to Earth");
+  alert("One Point to Earth");
   if (questionCount >= 3) {
     updateResult();
   }
