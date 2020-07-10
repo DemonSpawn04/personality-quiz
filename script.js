@@ -84,5 +84,5 @@ function air(){
   }
 }
 function updateResult(){
-  
+  if (fireScore)
 }
