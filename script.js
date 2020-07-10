@@ -16,10 +16,12 @@ var q1a1 = document.getElementById("q1a1");
 var q1a2 = document.getElementById("q1a2");
 var q1a3 = document.getElementById("q1a3");
 var q1a4 = document.getElemnetById("q1a4");
+
 var q2a1 = document.getElementById("q2a1");
 var q2a2 = document.getElementById("q2a2");
 var q2a3 = document.getElementById("q2a3");
 var q2a4 = document.getElementById("q2a4");
+
 var q3a1 = document.getElementById('q3a1');
 var q3a2 = document.getElementById('q3a2');
 var q3a3 = document.getElementById('q3a3');
@@ -34,10 +36,12 @@ q1a1.addEventListener("click", fire);
 q1a2.addEventListener("click", water);
 q1a3.addEventListener("click", air);
 q1a4.addEventListener("click", earth);
+
 q2a1.addEventListener("click", fire);
 q2a2.addEventListener("click", earth);
 q2a3.addEventListener("click", air);
 q2a4.addEventListener("click", water);
+
 q3a1.addEventListener("click", fire);
 q3a2.addEventListener("click", water);
 q3a3.addEventListener("click", earth);
@@ -50,17 +54,23 @@ q3a4.addEventListener("click", air)
 function fire(){  
   fireScore += 1;
   questionCount += 1;
-  alert("One ")
+  alert("One Point to Fire");
+  if (questionCount >=3){
+      updateResult();
+  }
 }
 function earth(){
   earthScore += 1;
   questionCount +=1;
+  alert("One Point to Earth");
 }
 function water(){
   waterScore += 1;
   questionCount += 1;
+  alert("One Point to Water");
 }
 function air(){
   airScore += 1;
   questionCount += 1;
+  alert("One Point to Air");
 }
