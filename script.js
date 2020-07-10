@@ -36,11 +36,11 @@ q1a3.addEventListener("click", air);
 q1a4.addEventListener("click", earth);
 q2a1.addEventListener("click", fire);
 q2a2.addEventListener("click", earth);
-q2a3.addEventListener("click", water);
-q2a4.addEventListener("click", air);
+q2a3.addEventListener("click", air);
+q2a4.addEventListener("click", water);
 q3a1.addEventListener("click", fire);
-q3a2.addEventListener("click", earth);
-q3a3.addEventListener("click", water);
+q3a2.addEventListener("click", water);
+q3a3.addEventListener("click", earth);
 q3a4.addEventListener("click", air)
 
 
@@ -50,6 +50,7 @@ q3a4.addEventListener("click", air)
 function fire(){  
   fireScore += 1;
   questionCount += 1;
+  
 }
 function earth(){
   earthScore += 1;
