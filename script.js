@@ -42,33 +42,33 @@ q3a3.addEventListener("click", earth);
 q3a4.addEventListener("click", air);
 
 //#TODO: Define quiz functions here
-function fire() {
-  fireScore += 1;
-  questionCount += 1;
+function fire(){
+  fireScore+=1;
+  questionCount+=1;
   alert("One Point to Fire");
   if (questionCount >= 3) {
     updateResult();
   }
 }
-function earth() {
-  earthScore += 1;
-  questionCount += 1;
+function earth(){
+  earthScore+=1;
+  questionCount+=1;
   alert("One Point to Earth");
   if (questionCount >= 3) {
     updateResult();
   }
 }
-function water() {
-  waterScore += 1;
-  questionCount += 1;
+function water(){
+  waterScore+=1;
+  questionCount+=1;
   alert("One Point to Water");
   if (questionCount >= 3) {
     updateResult();
   }
 }
-function air() {
-  airScore += 1;
-  questionCount += 1;
+function air(){
+  airScore+=1;
+  questionCount+=1;
   alert("One Point to Air");
   if (questionCount >= 3) {
     updateResult();
