@@ -84,5 +84,19 @@ function air(){
   }
 }
 function updateResult(){
-  if (fireScore)
+  if (fireScore >=2){
+    result.innerHTML = "Fire!";
+  }
+  else if(earthScore >=2){
+    result.innerHTML = "Earth!"
+  }
+  else if(waterScore >=2){
+    result.innerHTML = "Water!"
+  }
+  else if(airScore >=2){
+    result.innerHTML = "Air!"
+  }
+  else{
+    result.innerHTML = "Well it looks like we have a problem. Try again later please."
+  }
 }
