@@ -31,10 +31,17 @@ var q3a4 = document.getElementById('q3a4');
 
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", fire);
-q1a1.addEventListener("click", earth);
-q1a1.addEventListener("click", water);
-q1a1.addEventListener("click", air);
-q
+q1a2.addEventListener("click", water);
+q1a3.addEventListener("click", air);
+q1a4.addEventListener("click", earth);
+q2a1.addEventListener("click", fire);
+q2a2.addEventListener("click", earth);
+q2a3.addEventListener("click", water);
+q2a4.addEventListener("click", air);
+q3a1.addEventListener("click", fire);
+q3a2.addEventListener("click", earth);
+q3a3.addEventListener("click", water);
+q3a4.addEventListener("click", air)
 
 
 
