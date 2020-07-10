@@ -27,7 +27,7 @@ var q3a2 = document.getElementById('q3a2');
 var q3a3 = document.getElementById('q3a3');
 var q3a4 = document.getElementById('q3a4');
 
-
+var result = document.getElementById("result");
 
 
 
@@ -63,14 +63,26 @@ function earth(){
   earthScore += 1;
   questionCount +=1;
   alert("One Point to Earth");
+  if (questionCount >=3){
+      updateResult();
+  }
 }
 function water(){
   waterScore += 1;
   questionCount += 1;
   alert("One Point to Water");
+  if (questionCount >=3){
+      updateResult();
+  }
 }
 function air(){
   airScore += 1;
   questionCount += 1;
   alert("One Point to Air");
+  if (questionCount >=3){
+      updateResult();
+  }
+}
+function updateResult(){
+  
 }
