@@ -53,7 +53,7 @@ function fire(){
 function earth(){
   earthScore+=1;
   questionCount+=1;
-  alert("One Point to Earth");
+  console.log("One Point to Earth");
   if (questionCount >= 3) {
     updateResult();
   }
